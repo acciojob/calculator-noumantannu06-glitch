@@ -1,2 +1,5 @@
 
 /* Your CSS Code here. */
+.calculator { display: grid; grid-template-columns: repeat(4, 50px); gap: 5px; width: 220px; }
+    #input { grid-column: span 4; height: 30px; text-align: right; }
+    button { height: 40px; cursor: pointer; }
